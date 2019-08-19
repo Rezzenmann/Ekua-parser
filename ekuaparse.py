@@ -60,7 +60,7 @@ def main():
 
     pattern = 'https://ek.ua/list/122/{}/'
 
-    for i in range(0, 10):
+    for i in range(0, 45):
         url = pattern.format(str(i))
         get_data(get_html(url))
 
